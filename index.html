@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Random circle creator</h1>
+    <input type="number" id="numID" oninput="validateInput()"></input>
+    <button onclick="drawCircles()" id="drawButton" disabled>Draw circles</button>
+    <button onclick="stopDrawing()">Stop drawing</button><br/>
+    <canvas id="canvasID" width="700" height="400"></canvas>
+</body>
+</html>
